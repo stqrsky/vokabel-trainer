@@ -40,9 +40,9 @@
                 Was bedeutet
                 <h1 id="word"></h1>
 
-                <form action="#">
+                <form onsubmit="compare(); return false;">
                     <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
-                        <input class="mdl-textfield__input" type="text" id="germanText">
+                        <input required class="mdl-textfield__input" type="text" id="germanText">
                         <label class="mdl-textfield__label" for="germanText">Deutsch...</label>
                     </div>
 
@@ -50,8 +50,10 @@
                         Vergleichen
                     </button>
                 </form>
-            </div>
 
+                <h2 id="text"></h2>
+
+            </div>
 
         </main>
     </div>
