@@ -13,7 +13,7 @@
     <script src="script.js"></script>
 </head>
 
-<body>
+<body onload="nextVocabulary()">
 
     <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
         <header class="mdl-layout__header">
@@ -38,7 +38,7 @@
         <main class="mdl-layout__content">
             <div class="page-content">
                 Was bedeutet
-                <h1>{WORT)?</h1>
+                <h1 id="word"></h1>
 
                 <form action="#">
                     <div class="mdl-textfield mdl-js-textfield mdl-textfield--floating-label">
@@ -47,7 +47,7 @@
                     </div>
 
                     <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
-                        Hinzufügen
+                        Vergleichen
                     </button>
                 </form>
             </div>

@@ -18,5 +18,10 @@ function render() {
     for (let key in dictionary) {
         vocabularyList.innerHTML += `<li>${key} - ${dictionary[key]}</li>`;
     }
-    
+}
+
+function nextVocabulary() {
+    let obj_keys = Object.keys(dictionary);
+    let randomGermanWord = obj_keys[Math.floor(Math.random() * obj_keys.length)];
+    word.innerHTML = `${dictionary[randomGermanWord]}?`;    
 }
