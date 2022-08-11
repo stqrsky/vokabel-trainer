@@ -4,4 +4,4 @@
 
 ___
 
-deployed: [Vokabel-Trainer](sparkly-piroshki-649e46.netlify.app)
+deployed: [Vokabel-Trainer](https://sparkly-piroshki-649e46.netlify.app/)
